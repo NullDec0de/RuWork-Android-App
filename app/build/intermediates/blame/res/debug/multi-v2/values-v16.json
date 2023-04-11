@@ -1,0 +1,83 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\1302cd4fefa8694411933586f9fd26fd\\jetified-drop-in-5.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2,6,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,295,788",
+                        "endLines": "5,14,25",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "290,783,1388"
+                    },
+                    "to": {
+                        "startLines": "10,14,23",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "482,677,1170",
+                        "endLines": "13,22,33",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "672,1165,1770"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\65d5c41b585915ad58976290f63ff955\\jetified-mp-1.0.9\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "193"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "166",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "304"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\dfa2672e33ffbe174e70a05e6d779941\\core-1.5.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "65",
+                        "endOffsets": "161"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\39ec951e053eca47976a9f65550eecdc\\appcompat-1.3.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "309",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "477"
+                    }
+                }
+            ]
+        }
+    ]
+}

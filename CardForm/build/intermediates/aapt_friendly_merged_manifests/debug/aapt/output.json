@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "com.braintreepayments.cardform",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "AAPT_FRIENDLY_MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 41,
+        "versionName": "3.5.0",
+        "outputFile": "CardForm-debug.aar",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.braintreepayments.cardform",
+        "split": ""
+      }
+    }
+  ]
+}

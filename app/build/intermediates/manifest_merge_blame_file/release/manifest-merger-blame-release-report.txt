@@ -1,0 +1,1060 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dreamguys.truelysell"
+4    android:versionCode="27"
+5    android:versionName="2.1.7" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml
+10
+11    <!-- To auto-complete the email text field in the login form with the user's emails -->
+12    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+12-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:7:5-71
+12-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:7:22-68
+13    <uses-permission android:name="android.permission.READ_PROFILE" />
+13-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:8:5-71
+13-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:8:22-68
+14    <uses-permission android:name="android.permission.READ_CONTACTS" />
+14-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:9:5-72
+14-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:9:22-69
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:10:5-67
+15-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:12:5-80
+17-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:13:5-81
+18-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:14:5-65
+19-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:14:22-62
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:15:5-79
+20-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:15:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:16:5-81
+21-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:16:22-78
+22    <uses-permission android:name="android.permission.SET_ALARM" />
+22-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:17:5-68
+22-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:17:22-65
+23
+24    <uses-feature
+24-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:20:5-22:36
+25        android:name="android.hardware.camera"
+25-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:21:9-47
+26        android:required="false" />
+26-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:22:9-33
+27    <uses-feature
+27-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:23:5-25:36
+28        android:name="android.hardware.camera.autofocus"
+28-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:24:9-57
+29        android:required="false" />
+29-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:25:9-33
+30
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->[com.google.android.libraries.places:places:2.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\79295564e482fff140387f5c5a73ec3e\jetified-places-2.5.0\AndroidManifest.xml:10:5-76
+31-->[com.google.android.libraries.places:places:2.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\79295564e482fff140387f5c5a73ec3e\jetified-places-2.5.0\AndroidManifest.xml:10:22-73
+32    <uses-permission android:name="android.permission.VIBRATE" />
+32-->[co.paystack.android.design.widget:pinpad:1.0.4] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4b75d36c9e31ed9956b2912a4277d4dd\jetified-pinpad-1.0.4\AndroidManifest.xml:11:5-66
+32-->[co.paystack.android.design.widget:pinpad:1.0.4] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4b75d36c9e31ed9956b2912a4277d4dd\jetified-pinpad-1.0.4\AndroidManifest.xml:11:22-63
+33
+34    <queries>
+34-->[com.braintreepayments:browser-switch:1.1.3] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\8db82980d1dd099da292e1a8cf6979d8\jetified-browser-switch-1.1.3\AndroidManifest.xml:11:5-19:15
+35        <intent>
+35-->[com.braintreepayments:browser-switch:1.1.3] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\8db82980d1dd099da292e1a8cf6979d8\jetified-browser-switch-1.1.3\AndroidManifest.xml:12:9-18:18
+36            <action android:name="android.intent.action.VIEW" />
+36-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:383:17-69
+36-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:383:25-66
+37
+38            <category android:name="android.intent.category.BROWSABLE" />
+38-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:386:17-78
+38-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:386:27-75
+39
+40            <data android:scheme="https" />
+40-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:388:23-66
+41        </intent>
+42        <!-- Needs to be explicitly declared on Android R+ -->
+43        <package android:name="com.google.android.apps.maps" />
+43-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\52fcabcec5af1e2ce2aa2e6a0806a305\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:9-64
+43-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\52fcabcec5af1e2ce2aa2e6a0806a305\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:18-61
+44    </queries>
+45
+46    <uses-feature
+46-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\52fcabcec5af1e2ce2aa2e6a0806a305\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:5-28:35
+47        android:glEsVersion="0x00020000"
+47-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\52fcabcec5af1e2ce2aa2e6a0806a305\jetified-play-services-maps-18.0.0\AndroidManifest.xml:27:9-41
+48        android:required="true" />
+48-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\52fcabcec5af1e2ce2aa2e6a0806a305\jetified-play-services-maps-18.0.0\AndroidManifest.xml:28:9-32
+49
+50    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+50-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\f06dfa83ef830f5149d8278a9da56311\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:24:5-68
+50-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\f06dfa83ef830f5149d8278a9da56311\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:24:22-65
+51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+51-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:26:5-82
+51-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:26:22-79
+52    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+52-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:5-110
+52-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:22-107
+53
+54    <application
+54-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:27:5-436:19
+55        android:name="com.dreamguys.truelysell.MyApplication"
+55-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:28:9-38
+56        android:allowBackup="false"
+56-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:29:9-36
+57        android:appComponentFactory="true"
+57-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:30:9-43
+58        android:icon="@drawable/ic_app_icon"
+58-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:31:9-45
+59        android:label="@string/app_name"
+59-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:32:9-41
+60        android:largeHeap="true"
+60-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:33:9-33
+61        android:requestLegacyExternalStorage="true"
+61-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:34:9-52
+62        android:supportsRtl="true"
+62-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:35:9-35
+63        android:theme="@style/AppTheme"
+63-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:36:9-40
+64        android:usesCleartextTraffic="true" >
+64-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:37:9-44
+65        <uses-library
+65-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:40:9-42:40
+66            android:name="org.apache.http.legacy"
+66-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:41:13-50
+67            android:required="false" />
+67-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:42:13-37
+68
+69        <meta-data
+69-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:44:9-46:79
+70            android:name="co.paystack.android.PublicKey"
+70-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:45:13-57
+71            android:value="pk_test_eb3a128d1fcabd55b1fdb61fb479cd586c26c73b" />
+71-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:46:13-77
+72        <meta-data
+72-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:48:9-50:55
+73            android:name="com.facebook.sdk.ApplicationId"
+73-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:49:13-58
+74            android:value="@string/facebook_app_id" />
+74-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:50:13-52
+75        <meta-data
+75-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:52:9-54:58
+76            android:name="com.google.android.geo.API_KEY"
+76-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:53:13-58
+77            android:value="@string/GooglePlacesAPIKey" />
+77-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:54:13-55
+78        <meta-data
+78-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:56:9-58:69
+79            android:name="com.google.android.gms.version"
+79-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:57:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:58:13-66
+81
+82        <!-- FCM notification -->
+83        <service android:name="com.dreamguys.truelysell.service.MyFirebaseMessagingService" >
+83-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:61:9-65:19
+83-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:61:18-68
+84            <intent-filter>
+84-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:62:13-64:29
+85                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+85-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:63:17-78
+85-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:63:25-75
+86            </intent-filter>
+87        </service>
+88
+89        <meta-data
+89-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:67:9-69:56
+90            android:name="com.google.firebase.messaging.default_notification_icon"
+90-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:68:13-83
+91            android:resource="@drawable/ic_app_icon" />
+91-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:69:13-53
+92        <meta-data
+92-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:71:9-73:53
+93            android:name="com.google.firebase.messaging.default_notification_color"
+93-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:72:13-84
+94            android:resource="@color/colorAccent" />
+94-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:73:13-50
+95        <meta-data
+95-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:75:9-77:71
+96            android:name="com.google.firebase.messaging.default_notification_channel_id"
+96-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:76:13-89
+97            android:value="@string/default_notification_channel_id" />
+97-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:77:13-68
+98
+99        <activity
+99-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:79:9-81:59
+100            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+100-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:80:13-76
+101            android:theme="@style/Base.Theme.AppCompat" />
+101-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:81:13-56
+102        <activity
+102-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:83:9-94:20
+103            android:name="com.dreamguys.truelysell.SplashScreenActivityNew"
+103-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:84:13-52
+104            android:configChanges="layoutDirection|locale"
+104-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:85:13-59
+105            android:screenOrientation="portrait"
+105-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:86:13-49
+106            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+106-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:87:13-80
+107            <intent-filter>
+107-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:89:13-93:29
+108                <action android:name="android.intent.action.MAIN" />
+108-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:90:17-69
+108-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:90:25-66
+109
+110                <category android:name="android.intent.category.LAUNCHER" />
+110-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:92:17-77
+110-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:92:27-74
+111            </intent-filter>
+112        </activity>
+113        <activity
+113-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:96:9-101:56
+114            android:name="com.dreamguys.truelysell.MapActivity"
+114-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:97:13-40
+115            android:configChanges="layoutDirection|locale"
+115-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:98:13-59
+116            android:screenOrientation="portrait"
+116-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:99:13-49
+117            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+117-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:100:13-80
+118        <activity
+118-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:103:9-108:56
+119            android:name="com.dreamguys.truelysell.MapsGetDirections"
+119-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:104:13-46
+120            android:configChanges="layoutDirection|locale"
+120-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:105:13-59
+121            android:screenOrientation="portrait"
+121-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:106:13-49
+122            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+122-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:107:13-80
+123        <activity
+123-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:110:9-116:56
+124            android:name="com.dreamguys.truelysell.MyProfileActivity"
+124-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:111:13-46
+125            android:configChanges="layoutDirection|locale"
+125-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:112:13-59
+126            android:screenOrientation="portrait"
+126-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:113:13-49
+127            android:theme="@style/AppThemeNoAction"
+127-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:114:13-52
+128            android:windowSoftInputMode="stateHidden|adjustNothing" />
+128-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:115:13-68
+129        <activity
+129-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:118:9-124:56
+130            android:name="com.dreamguys.truelysell.payment.Subscriptionpaymentactivity"
+130-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:119:13-64
+131            android:configChanges="layoutDirection|locale"
+131-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:120:13-59
+132            android:screenOrientation="portrait"
+132-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:121:13-49
+133            android:theme="@style/AppThemeNoAction"
+133-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:122:13-52
+134            android:windowSoftInputMode="stateHidden|adjustNothing" />
+134-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:123:13-68
+135        <activity
+135-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:128:9-133:56
+136            android:name="com.dreamguys.truelysell.ChatDetailActivity"
+136-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:129:13-47
+137            android:configChanges="layoutDirection|locale"
+137-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:130:13-59
+138            android:screenOrientation="portrait"
+138-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:131:13-49
+139            android:theme="@style/AppThemeNoAction" />
+139-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:132:13-52
+140        <activity
+140-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:134:9-139:56
+141            android:name="com.dreamguys.truelysell.SubscriptionActivity"
+141-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:135:13-49
+142            android:configChanges="layoutDirection|locale"
+142-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:136:13-59
+143            android:screenOrientation="portrait"
+143-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:137:13-49
+144            android:theme="@style/AppThemeNoAction" />
+144-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:138:13-52
+145        <activity
+145-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:141:9-146:56
+146            android:name="com.dreamguys.truelysell.viewwidgets.FullScreenImageView"
+146-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:142:13-60
+147            android:configChanges="layoutDirection|locale"
+147-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:143:13-59
+148            android:screenOrientation="portrait"
+148-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:144:13-49
+149            android:theme="@style/AppThemeNoAction" />
+149-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:145:13-52
+150        <activity
+150-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:148:9-153:56
+151            android:name="com.dreamguys.truelysell.SubscriptionThankYouActivity"
+151-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:149:13-57
+152            android:configChanges="layoutDirection|locale"
+152-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:150:13-59
+153            android:screenOrientation="portrait"
+153-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:151:13-49
+154            android:theme="@style/AppThemeNoAction" />
+154-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:152:13-52
+155        <activity
+155-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:155:9-160:56
+156            android:name="com.dreamguys.truelysell.payment.PayStackActivity"
+156-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:156:13-53
+157            android:configChanges="layoutDirection|locale"
+157-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:157:13-59
+158            android:screenOrientation="portrait"
+158-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:158:13-49
+159            android:theme="@style/AppThemeNoAction" />
+159-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:159:13-52
+160        <activity
+160-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:165:9-170:56
+161            android:name="com.dreamguys.truelysell.payment.StripePayActivity"
+161-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:166:13-54
+162            android:configChanges="layoutDirection|locale"
+162-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:167:13-59
+163            android:screenOrientation="portrait"
+163-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:168:13-49
+164            android:theme="@style/AppThemeNoAction" />
+164-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:169:13-52
+165        <activity
+165-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:172:9-177:56
+166            android:name="com.dreamguys.truelysell.GoToSubscriptionActivity"
+166-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:173:13-53
+167            android:configChanges="layoutDirection|locale"
+167-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:174:13-59
+168            android:screenOrientation="portrait"
+168-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:175:13-49
+169            android:theme="@style/AppThemeNoAction" />
+169-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:176:13-52
+170        <activity
+170-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:180:9-186:56
+171            android:name="com.dreamguys.truelysell.RateProviderActivity"
+171-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:181:13-49
+172            android:configChanges="layoutDirection|locale"
+172-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:182:13-59
+173            android:screenOrientation="portrait"
+173-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:183:13-49
+174            android:theme="@style/AppThemeNoAction"
+174-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:184:13-52
+175            android:windowSoftInputMode="stateHidden|adjustNothing" />
+175-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:185:13-68
+176        <activity
+176-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:188:9-193:56
+177            android:name="com.dreamguys.truelysell.WebViewActivity"
+177-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:189:13-44
+178            android:configChanges="layoutDirection|locale"
+178-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:190:13-59
+179            android:screenOrientation="portrait"
+179-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:191:13-49
+180            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+180-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:192:13-80
+181        <activity
+181-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:195:9-200:56
+182            android:name="com.dreamguys.truelysell.GetAJobMapViewActivity"
+182-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:196:13-51
+183            android:configChanges="layoutDirection|locale"
+183-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:197:13-59
+184            android:screenOrientation="portrait"
+184-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:198:13-49
+185            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+185-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:199:13-80
+186        <activity
+186-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:204:9-210:56
+187            android:name="com.dreamguys.truelysell.ViewAllServicesActivity"
+187-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:205:13-52
+188            android:configChanges="layoutDirection|locale"
+188-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:206:13-59
+189            android:screenOrientation="portrait"
+189-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:207:13-49
+190            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+190-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:208:13-80
+191            android:windowSoftInputMode="stateHidden|adjustNothing" />
+191-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:209:13-68
+192        <activity
+192-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:212:9-218:56
+193            android:name="com.dreamguys.truelysell.ActivityServiceDetail"
+193-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:213:13-50
+194            android:configChanges="layoutDirection|locale"
+194-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:214:13-59
+195            android:screenOrientation="portrait"
+195-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:215:13-49
+196            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+196-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:216:13-80
+197            android:windowSoftInputMode="stateHidden|adjustNothing" />
+197-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:217:13-68
+198        <activity
+198-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:220:9-226:56
+199            android:name="com.dreamguys.truelysell.ActivityCreateService"
+199-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:221:13-50
+200            android:configChanges="layoutDirection|locale"
+200-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:222:13-59
+201            android:screenOrientation="portrait"
+201-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:223:13-49
+202            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+202-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:224:13-80
+203            android:windowSoftInputMode="stateHidden|adjustPan" />
+203-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:225:13-64
+204        <activity
+204-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:229:9-235:56
+205            android:name="com.dreamguys.truelysell.ActivityBookService"
+205-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:230:13-48
+206            android:configChanges="layoutDirection|locale"
+206-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:231:13-59
+207            android:screenOrientation="portrait"
+207-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:232:13-49
+208            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+208-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:233:13-80
+209            android:windowSoftInputMode="stateHidden|adjustPan" />
+209-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:234:13-64
+210        <activity
+210-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:237:9-243:56
+211            android:name="com.dreamguys.truelysell.HomeActivity"
+211-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:238:13-41
+212            android:configChanges="layoutDirection|locale"
+212-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:239:13-59
+213            android:screenOrientation="portrait"
+213-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:240:13-49
+214            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+214-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:241:13-80
+215            android:windowSoftInputMode="stateHidden|adjustNothing" />
+215-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:242:13-68
+216        <activity
+216-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:245:9-251:56
+217            android:name="com.dreamguys.truelysell.MyProviderServicesActivitynew"
+217-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:246:13-58
+218            android:configChanges="layoutDirection|locale"
+218-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:247:13-59
+219            android:screenOrientation="portrait"
+219-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:248:13-49
+220            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+220-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:249:13-80
+221            android:windowSoftInputMode="stateHidden|adjustNothing" />
+221-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:250:13-68
+222        <activity
+222-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:253:9-259:56
+223            android:name="com.dreamguys.truelysell.EditServiceActivity"
+223-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:254:13-48
+224            android:configChanges="layoutDirection|locale"
+224-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:255:13-59
+225            android:screenOrientation="portrait"
+225-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:256:13-49
+226            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+226-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:257:13-80
+227            android:windowSoftInputMode="stateHidden|adjustPan" />
+227-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:258:13-64
+228        <activity
+228-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:260:9-266:56
+229            android:name="com.dreamguys.truelysell.ChangeAvailabilityActivity"
+229-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:261:13-55
+230            android:configChanges="layoutDirection|locale"
+230-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:262:13-59
+231            android:screenOrientation="portrait"
+231-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:263:13-49
+232            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+232-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:264:13-80
+233            android:windowSoftInputMode="stateHidden|adjustNothing" />
+233-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:265:13-68
+234        <activity
+234-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:268:9-274:56
+235            android:name="com.dreamguys.truelysell.ActivityBookingRequestDetail"
+235-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:269:13-57
+236            android:configChanges="layoutDirection|locale"
+236-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:270:13-59
+237            android:screenOrientation="portrait"
+237-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:271:13-49
+238            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+238-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:272:13-80
+239            android:windowSoftInputMode="stateHidden|adjustNothing" />
+239-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:273:13-68
+240        <activity
+240-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:276:9-282:56
+241            android:name="com.dreamguys.truelysell.SearchServicesActivity"
+241-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:277:13-51
+242            android:configChanges="layoutDirection|locale"
+242-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:278:13-59
+243            android:screenOrientation="portrait"
+243-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:279:13-49
+244            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+244-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:280:13-80
+245            android:windowSoftInputMode="stateHidden|adjustNothing" />
+245-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:281:13-68
+246        <activity
+246-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:284:9-290:56
+247            android:name="com.dreamguys.truelysell.MyBookingRequestsActivity"
+247-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:285:13-54
+248            android:configChanges="layoutDirection|locale"
+248-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:286:13-59
+249            android:screenOrientation="portrait"
+249-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:287:13-49
+250            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+250-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:288:13-80
+251            android:windowSoftInputMode="stateHidden|adjustNothing" />
+251-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:289:13-68
+252        <activity
+252-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:292:9-298:56
+253            android:name="com.dreamguys.truelysell.SubCategoryListActivityNew"
+253-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:293:13-55
+254            android:configChanges="layoutDirection|locale"
+254-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:294:13-59
+255            android:screenOrientation="portrait"
+255-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:295:13-49
+256            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+256-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:296:13-80
+257            android:windowSoftInputMode="stateHidden|adjustNothing" />
+257-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:297:13-68
+258        <activity
+258-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:300:9-306:56
+259            android:name="com.dreamguys.truelysell.ProviderBookingsActivity"
+259-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:301:13-53
+260            android:configChanges="layoutDirection|locale"
+260-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:302:13-59
+261            android:screenOrientation="portrait"
+261-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:303:13-49
+262            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+262-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:304:13-80
+263            android:windowSoftInputMode="stateHidden|adjustNothing" />
+263-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:305:13-68
+264        <activity
+264-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:308:9-314:56
+265            android:name="com.dreamguys.truelysell.CategoryListActivity"
+265-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:309:13-49
+266            android:configChanges="layoutDirection|locale"
+266-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:310:13-59
+267            android:screenOrientation="portrait"
+267-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:311:13-49
+268            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+268-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:312:13-80
+269            android:windowSoftInputMode="stateHidden|adjustNothing" />
+269-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:313:13-68
+270        <activity
+270-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:316:9-322:56
+271            android:name="com.dreamguys.truelysell.MyNotificationActivity"
+271-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:317:13-51
+272            android:configChanges="layoutDirection|locale"
+272-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:318:13-59
+273            android:screenOrientation="portrait"
+273-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:319:13-49
+274            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+274-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:320:13-80
+275            android:windowSoftInputMode="stateHidden|adjustNothing" />
+275-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:321:13-68
+276        <activity
+276-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:324:9-329:56
+277            android:name="com.dreamguys.truelysell.wallet.AddWalletActivity"
+277-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:325:13-53
+278            android:configChanges="layoutDirection|locale"
+278-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:326:13-59
+279            android:screenOrientation="portrait"
+279-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:327:13-49
+280            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+280-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:328:13-80
+281        <activity
+281-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:331:9-337:56
+282            android:name="com.dreamguys.truelysell.wallet.WalletDashBoard"
+282-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:332:13-51
+283            android:configChanges="layoutDirection|locale"
+283-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:333:13-59
+284            android:screenOrientation="portrait"
+284-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:334:13-49
+285            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+285-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:335:13-80
+286            android:windowSoftInputMode="adjustPan" />
+286-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:336:13-52
+287        <activity
+287-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:339:9-345:56
+288            android:name="com.dreamguys.truelysell.wallet.CardListActivity"
+288-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:340:13-52
+289            android:configChanges="layoutDirection|locale"
+289-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:341:13-59
+290            android:screenOrientation="portrait"
+290-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:342:13-49
+291            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+291-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:343:13-80
+292            android:windowSoftInputMode="adjustPan" />
+292-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:344:13-52
+293        <activity
+293-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:347:9-353:56
+294            android:name="com.dreamguys.truelysell.wallet.WithdrawListActivity"
+294-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:348:13-56
+295            android:configChanges="layoutDirection|locale"
+295-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:349:13-59
+296            android:screenOrientation="portrait"
+296-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:350:13-49
+297            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+297-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:351:13-80
+298            android:windowSoftInputMode="adjustPan" />
+298-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:352:13-52
+299        <activity
+299-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:355:9-361:56
+300            android:name="com.dreamguys.truelysell.wallet.TransactionHistoryActivity"
+300-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:356:13-62
+301            android:configChanges="layoutDirection|locale"
+301-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:357:13-59
+302            android:screenOrientation="portrait"
+302-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:358:13-49
+303            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+303-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:359:13-80
+304            android:windowSoftInputMode="adjustPan" />
+304-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:360:13-52
+305        <activity
+305-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:363:9-369:56
+306            android:name="com.dreamguys.truelysell.StripeSettingsActivity"
+306-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:364:13-51
+307            android:configChanges="layoutDirection|locale"
+307-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:365:13-59
+308            android:screenOrientation="portrait"
+308-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:366:13-49
+309            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+309-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:367:13-80
+310            android:windowSoftInputMode="adjustPan" />
+310-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:368:13-52
+311        <activity
+311-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:371:9-377:56
+312            android:name="com.dreamguys.truelysell.SubCategoryServicesActivity"
+312-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:372:13-56
+313            android:configChanges="layoutDirection|locale"
+313-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:373:13-59
+314            android:screenOrientation="portrait"
+314-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:374:13-49
+315            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+315-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:375:13-80
+316            android:windowSoftInputMode="adjustPan" />
+316-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:376:13-52
+317        <activity
+317-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:379:9-390:20
+318            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+318-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:380:13-84
+319            android:launchMode="singleTask" >
+319-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:381:13-44
+320            <intent-filter>
+320-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:382:13-389:29
+321                <action android:name="android.intent.action.VIEW" />
+321-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:383:17-69
+321-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:383:25-66
+322
+323                <category android:name="android.intent.category.DEFAULT" />
+323-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:385:17-76
+323-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:385:27-73
+324                <category android:name="android.intent.category.BROWSABLE" />
+324-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:386:17-78
+324-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:386:27-75
+325
+326                <data android:scheme="com.dreamguys.truelysell.braintree" />
+326-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:388:23-66
+327            </intent-filter>
+328        </activity>
+329        <activity
+329-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:391:9-397:56
+330            android:name="com.dreamguys.truelysell.ChangePasswordActivity"
+330-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:392:13-51
+331            android:configChanges="layoutDirection|locale"
+331-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:393:13-59
+332            android:screenOrientation="portrait"
+332-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:394:13-49
+333            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+333-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:395:13-80
+334            android:windowSoftInputMode="adjustPan" />
+334-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:396:13-52
+335        <activity
+335-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:399:9-405:56
+336            android:name="com.dreamguys.truelysell.FavoriteListActivity"
+336-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:400:13-49
+337            android:configChanges="layoutDirection|locale"
+337-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:401:13-59
+338            android:screenOrientation="portrait"
+338-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:402:13-49
+339            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+339-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:403:13-80
+340            android:windowSoftInputMode="adjustPan" />
+340-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:404:13-52
+341        <activity
+341-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:407:9-413:56
+342            android:name="com.dreamguys.truelysell.WalletDetails"
+342-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:408:13-42
+343            android:configChanges="layoutDirection|locale"
+343-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:409:13-59
+344            android:screenOrientation="portrait"
+344-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:410:13-49
+345            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+345-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:411:13-80
+346            android:windowSoftInputMode="adjustPan" />
+346-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:412:13-52
+347
+348        <!-- <activity -->
+349        <!-- android:name=".HomeActivity" -->
+350        <!-- android:screenOrientation="portrait" -->
+351        <!-- android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" -->
+352        <!-- android:windowSoftInputMode="stateHidden|adjustNothing" /> -->
+353
+354
+355        <!-- Provider for accessing camera, for Uri.fromFile(deprecated), we need to use file provider to achieve it. -->
+356        <provider
+357            android:name="androidx.core.content.FileProvider"
+357-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:424:13-62
+358            android:authorities="com.dreamguys.truelysell.provider"
+358-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:425:13-60
+359            android:exported="false"
+359-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:426:13-37
+360            android:grantUriPermissions="true" >
+360-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:427:13-47
+361            <meta-data
+361-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:428:13-430:58
+362                android:name="android.support.FILE_PROVIDER_PATHS"
+362-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:429:17-67
+363                android:resource="@xml/provider_paths" />
+363-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:430:17-55
+364        </provider>
+365
+366        <meta-data
+366-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:433:9-435:72
+367            android:name="io.fabric.ApiKey"
+367-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:434:13-44
+368            android:value="88c3fd0dcf2d1245a48a9b07c59e6dd2f5b6770e" />
+368-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:435:13-69
+369
+370        <activity
+370-->[com.github.jitenderdev:countryutility:v1.1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ae73352a08c1ffd64be134d7d9a93d2d\jetified-countryutility-v1.1\AndroidManifest.xml:12:9-14:55
+371            android:name="com.jdev.countryutil.CountriesActivity"
+371-->[com.github.jitenderdev:countryutility:v1.1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ae73352a08c1ffd64be134d7d9a93d2d\jetified-countryutility-v1.1\AndroidManifest.xml:13:13-66
+372            android:theme="@style/NoActionBarTheme" />
+372-->[com.github.jitenderdev:countryutility:v1.1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ae73352a08c1ffd64be134d7d9a93d2d\jetified-countryutility-v1.1\AndroidManifest.xml:14:13-52
+373        <activity
+373-->[com.braintreepayments.api:drop-in:5.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\1302cd4fefa8694411933586f9fd26fd\jetified-drop-in-5.1.0\AndroidManifest.xml:18:9-20:64
+374            android:name="com.braintreepayments.api.dropin.DropInActivity"
+374-->[com.braintreepayments.api:drop-in:5.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\1302cd4fefa8694411933586f9fd26fd\jetified-drop-in-5.1.0\AndroidManifest.xml:19:13-75
+375            android:theme="@style/bt_drop_in_activity_theme" />
+375-->[com.braintreepayments.api:drop-in:5.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\1302cd4fefa8694411933586f9fd26fd\jetified-drop-in-5.1.0\AndroidManifest.xml:20:13-61
+376        <activity
+376-->[com.braintreepayments.api:drop-in:5.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\1302cd4fefa8694411933586f9fd26fd\jetified-drop-in-5.1.0\AndroidManifest.xml:21:9-23:65
+377            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+377-->[com.braintreepayments.api:drop-in:5.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\1302cd4fefa8694411933586f9fd26fd\jetified-drop-in-5.1.0\AndroidManifest.xml:22:13-76
+378            android:theme="@style/bt_add_card_activity_theme" />
+378-->[com.braintreepayments.api:drop-in:5.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\1302cd4fefa8694411933586f9fd26fd\jetified-drop-in-5.1.0\AndroidManifest.xml:23:13-62
+379        <activity
+379-->[com.braintreepayments.api:drop-in:5.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\1302cd4fefa8694411933586f9fd26fd\jetified-drop-in-5.1.0\AndroidManifest.xml:24:9-26:70
+380            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+380-->[com.braintreepayments.api:drop-in:5.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\1302cd4fefa8694411933586f9fd26fd\jetified-drop-in-5.1.0\AndroidManifest.xml:25:13-81
+381            android:theme="@style/bt_vault_manager_activity_theme" />
+381-->[com.braintreepayments.api:drop-in:5.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\1302cd4fefa8694411933586f9fd26fd\jetified-drop-in-5.1.0\AndroidManifest.xml:26:13-67
+382        <activity
+382-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:11:9-13:63
+383            android:name="co.paystack.android.ui.PinActivity"
+383-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:12:13-62
+384            android:theme="@style/Paystack.Dialog.PinEntry" />
+384-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:13:13-60
+385        <activity
+385-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:14:9-16:63
+386            android:name="co.paystack.android.ui.OtpActivity"
+386-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:15:13-62
+387            android:theme="@style/Paystack.Dialog.OtpEntry" />
+387-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:16:13-60
+388        <activity
+388-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:17:9-19:63
+389            android:name="co.paystack.android.ui.AuthActivity"
+389-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:18:13-63
+390            android:theme="@style/Paystack.Dialog.OtpEntry" />
+390-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:19:13-60
+391        <activity
+391-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:20:9-22:64
+392            android:name="co.paystack.android.ui.CardActivity"
+392-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:21:13-63
+393            android:theme="@style/Paystack.Dialog.CardEntry" />
+393-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:22:13-61
+394        <activity
+394-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:23:9-25:54
+395            android:name="co.paystack.android.ui.AddressVerificationActivity"
+395-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:24:13-78
+396            android:theme="@style/Paystack.Dialog" />
+396-->[co.paystack.android:paystack:3.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\ea4d41acd11ea8f8484da1ee1386e820\jetified-paystack-3.1.2\AndroidManifest.xml:25:13-51
+397        <activity
+397-->[com.google.android.libraries.places:places:2.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\79295564e482fff140387f5c5a73ec3e\jetified-places-2.5.0\AndroidManifest.xml:14:9-20:20
+398            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+398-->[com.google.android.libraries.places:places:2.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\79295564e482fff140387f5c5a73ec3e\jetified-places-2.5.0\AndroidManifest.xml:15:13-91
+399            android:exported="false"
+399-->[com.google.android.libraries.places:places:2.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\79295564e482fff140387f5c5a73ec3e\jetified-places-2.5.0\AndroidManifest.xml:16:13-37
+400            android:label="@string/places_autocomplete_label"
+400-->[com.google.android.libraries.places:places:2.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\79295564e482fff140387f5c5a73ec3e\jetified-places-2.5.0\AndroidManifest.xml:17:13-62
+401            android:theme="@style/PlacesAutocompleteOverlay"
+401-->[com.google.android.libraries.places:places:2.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\79295564e482fff140387f5c5a73ec3e\jetified-places-2.5.0\AndroidManifest.xml:18:13-61
+402            android:windowSoftInputMode="adjustResize" >
+402-->[com.google.android.libraries.places:places:2.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\79295564e482fff140387f5c5a73ec3e\jetified-places-2.5.0\AndroidManifest.xml:19:13-55
+403        </activity>
+404
+405        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+405-->[com.braintreepayments.api:braintree:3.15.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\9fecf85a25175da205a587537ba11a00\jetified-braintree-3.15.0\AndroidManifest.xml:17:9-93
+405-->[com.braintreepayments.api:braintree:3.15.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\9fecf85a25175da205a587537ba11a00\jetified-braintree-3.15.0\AndroidManifest.xml:17:18-90
+406
+407        <activity android:name="com.braintreepayments.api.ThreeDSecureActivity" />
+407-->[com.braintreepayments.api:braintree:3.15.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\9fecf85a25175da205a587537ba11a00\jetified-braintree-3.15.0\AndroidManifest.xml:19:9-83
+407-->[com.braintreepayments.api:braintree:3.15.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\9fecf85a25175da205a587537ba11a00\jetified-braintree-3.15.0\AndroidManifest.xml:19:19-80
+408
+409        <provider
+409-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\9472973d58b95295adb8e6eef908f4a2\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+410            android:name="com.squareup.picasso.PicassoProvider"
+410-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\9472973d58b95295adb8e6eef908f4a2\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+411            android:authorities="com.dreamguys.truelysell.com.squareup.picasso"
+411-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\9472973d58b95295adb8e6eef908f4a2\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+412            android:exported="false" />
+412-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\9472973d58b95295adb8e6eef908f4a2\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+413
+414        <activity
+414-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\406aaaf2a80b0766e64cd7c63da2d2ea\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+415            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+415-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\406aaaf2a80b0766e64cd7c63da2d2ea\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+416            android:excludeFromRecents="true"
+416-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\406aaaf2a80b0766e64cd7c63da2d2ea\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+417            android:exported="false"
+417-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\406aaaf2a80b0766e64cd7c63da2d2ea\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+418            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+418-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\406aaaf2a80b0766e64cd7c63da2d2ea\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+419        <!--
+420            Service handling Google Sign-In user revocation. For apps that do not integrate with
+421            Google Sign-In, this service will never be started.
+422        -->
+423        <service
+423-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\406aaaf2a80b0766e64cd7c63da2d2ea\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+424            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+424-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\406aaaf2a80b0766e64cd7c63da2d2ea\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+425            android:exported="true"
+425-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\406aaaf2a80b0766e64cd7c63da2d2ea\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+426            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+426-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\406aaaf2a80b0766e64cd7c63da2d2ea\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+427            android:visibleToInstantApps="true" />
+427-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\406aaaf2a80b0766e64cd7c63da2d2ea\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+428        <!--
+429             FirebaseMessagingService performs security checks at runtime,
+430             but set to not exported to explicitly avoid allowing another app to call it.
+431        -->
+432        <service
+432-->[com.google.firebase:firebase-messaging:17.6.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b1f71d730d357a0621771cfd994be3e1\jetified-firebase-messaging-17.6.0\AndroidManifest.xml:28:9-34:19
+433            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+433-->[com.google.firebase:firebase-messaging:17.6.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b1f71d730d357a0621771cfd994be3e1\jetified-firebase-messaging-17.6.0\AndroidManifest.xml:29:13-82
+434            android:exported="false" >
+434-->[com.google.firebase:firebase-messaging:17.6.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b1f71d730d357a0621771cfd994be3e1\jetified-firebase-messaging-17.6.0\AndroidManifest.xml:30:13-37
+435            <intent-filter android:priority="-500" >
+435-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:62:13-64:29
+436                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+436-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:63:17-78
+436-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:63:25-75
+437            </intent-filter>
+438        </service>
+439
+440        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+440-->[com.razorpay:checkout:1.5.16] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4aa54e54a6bc37c57d57a6a367b17e5d\jetified-checkout-1.5.16\AndroidManifest.xml:12:9-16:20
+440-->[com.razorpay:checkout:1.5.16] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4aa54e54a6bc37c57d57a6a367b17e5d\jetified-checkout-1.5.16\AndroidManifest.xml:12:19-63
+441            <intent-filter>
+441-->[com.razorpay:checkout:1.5.16] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4aa54e54a6bc37c57d57a6a367b17e5d\jetified-checkout-1.5.16\AndroidManifest.xml:13:13-15:29
+442                <action android:name="rzp.device_token.share" />
+442-->[com.razorpay:checkout:1.5.16] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4aa54e54a6bc37c57d57a6a367b17e5d\jetified-checkout-1.5.16\AndroidManifest.xml:14:17-65
+442-->[com.razorpay:checkout:1.5.16] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4aa54e54a6bc37c57d57a6a367b17e5d\jetified-checkout-1.5.16\AndroidManifest.xml:14:25-62
+443            </intent-filter>
+444        </receiver>
+445
+446        <activity
+446-->[com.razorpay:checkout:1.5.16] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4aa54e54a6bc37c57d57a6a367b17e5d\jetified-checkout-1.5.16\AndroidManifest.xml:18:9-29:20
+447            android:name="com.razorpay.CheckoutActivity"
+447-->[com.razorpay:checkout:1.5.16] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4aa54e54a6bc37c57d57a6a367b17e5d\jetified-checkout-1.5.16\AndroidManifest.xml:19:13-57
+448            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+448-->[com.razorpay:checkout:1.5.16] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4aa54e54a6bc37c57d57a6a367b17e5d\jetified-checkout-1.5.16\AndroidManifest.xml:20:13-83
+449            android:theme="@style/CheckoutTheme" >
+449-->[com.razorpay:checkout:1.5.16] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4aa54e54a6bc37c57d57a6a367b17e5d\jetified-checkout-1.5.16\AndroidManifest.xml:21:13-49
+450            <intent-filter>
+450-->[com.razorpay:checkout:1.5.16] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\4aa54e54a6bc37c57d57a6a367b17e5d\jetified-checkout-1.5.16\AndroidManifest.xml:22:13-28:29
+451                <action android:name="android.intent.action.MAIN" />
+451-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:90:17-69
+451-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:90:25-66
+452
+453                <data
+454                    android:host="rzp.io"
+455                    android:scheme="io.rzp" />
+455-->C:\Users\Dreamguys\Downloads\truelysell-android\truelysell-android\truelysell-android\app\src\main\AndroidManifest.xml:388:23-66
+456            </intent-filter>
+457        </activity>
+458
+459        <service
+459-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\f06dfa83ef830f5149d8278a9da56311\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:27:9-33:19
+460            android:name="com.google.firebase.components.ComponentDiscoveryService"
+460-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\f06dfa83ef830f5149d8278a9da56311\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:28:13-84
+461            android:exported="false" >
+461-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\f06dfa83ef830f5149d8278a9da56311\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:29:13-37
+462            <meta-data
+462-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\f06dfa83ef830f5149d8278a9da56311\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:30:13-32:85
+463                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+463-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\f06dfa83ef830f5149d8278a9da56311\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:31:17-139
+464                android:value="com.google.firebase.components.ComponentRegistrar" />
+464-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\f06dfa83ef830f5149d8278a9da56311\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:32:17-82
+465            <meta-data
+465-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:32:13-34:85
+466                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+466-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:33:17-96
+467                android:value="com.google.firebase.components.ComponentRegistrar" />
+467-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:34:17-82
+468        </service>
+469
+470        <receiver
+470-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:37:9-44:20
+471            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+471-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:38:13-78
+472            android:exported="true"
+472-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:39:13-36
+473            android:permission="com.google.android.c2dm.permission.SEND" >
+473-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:40:13-73
+474            <intent-filter>
+474-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:41:13-43:29
+475                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+475-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:17-81
+475-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:25-78
+476            </intent-filter>
+477        </receiver>
+478        <!--
+479             FirebaseInstanceIdService performs security checks at runtime,
+480             no need for explicit permissions despite exported="true"
+481        -->
+482        <service
+482-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:50:9-56:19
+483            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+483-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:51:13-77
+484            android:exported="true" >
+484-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:52:13-36
+485            <intent-filter android:priority="-500" >
+485-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:53:13-55:29
+485-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:53:28-51
+486                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+486-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:54:17-80
+486-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\69daf8a2c5879523e24957b70be9a15f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:54:25-77
+487            </intent-filter>
+488        </service>
+489
+490        <activity
+490-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\a6f9941009298f26c97ecc182816dc25\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+491            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+491-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\a6f9941009298f26c97ecc182816dc25\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+492            android:exported="false"
+492-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\a6f9941009298f26c97ecc182816dc25\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+493            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+493-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\a6f9941009298f26c97ecc182816dc25\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+494
+495        <provider
+495-->[com.google.firebase:firebase-common:16.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\fbb062deb3ef79ab98bbdc5327005a04\jetified-firebase-common-16.1.0\AndroidManifest.xml:12:9-16:39
+496            android:name="com.google.firebase.provider.FirebaseInitProvider"
+496-->[com.google.firebase:firebase-common:16.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\fbb062deb3ef79ab98bbdc5327005a04\jetified-firebase-common-16.1.0\AndroidManifest.xml:13:13-77
+497            android:authorities="com.dreamguys.truelysell.firebaseinitprovider"
+497-->[com.google.firebase:firebase-common:16.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\fbb062deb3ef79ab98bbdc5327005a04\jetified-firebase-common-16.1.0\AndroidManifest.xml:14:13-72
+498            android:exported="false"
+498-->[com.google.firebase:firebase-common:16.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\fbb062deb3ef79ab98bbdc5327005a04\jetified-firebase-common-16.1.0\AndroidManifest.xml:15:13-37
+499            android:initOrder="100" />
+499-->[com.google.firebase:firebase-common:16.1.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\fbb062deb3ef79ab98bbdc5327005a04\jetified-firebase-common-16.1.0\AndroidManifest.xml:16:13-36
+500
+501        <receiver
+501-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:29:9-33:20
+502            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+502-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:30:13-85
+503            android:enabled="true"
+503-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:31:13-35
+504            android:exported="false" >
+504-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:32:13-37
+505        </receiver>
+506        <receiver
+506-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:34:9-42:20
+507            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+507-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:35:13-100
+508            android:enabled="true"
+508-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:36:13-35
+509            android:exported="true"
+509-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:37:13-36
+510            android:permission="android.permission.INSTALL_PACKAGES" >
+510-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:38:13-69
+511            <intent-filter>
+511-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:39:13-41:29
+512                <action android:name="com.android.vending.INSTALL_REFERRER" />
+512-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:17-79
+512-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:25-76
+513            </intent-filter>
+514        </receiver>
+515
+516        <service
+516-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:44:9-47:40
+517            android:name="com.google.android.gms.measurement.AppMeasurementService"
+517-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:45:13-84
+518            android:enabled="true"
+518-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:46:13-35
+519            android:exported="false" />
+519-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:47:13-37
+520        <service
+520-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:48:9-52:72
+521            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+521-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:49:13-87
+522            android:enabled="true"
+522-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:50:13-35
+523            android:exported="false"
+523-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:51:13-37
+524            android:permission="android.permission.BIND_JOB_SERVICE" />
+524-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\7d2d7ff5d8372249701551b5001500d9\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:52:13-69
+525        <service
+525-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\28529904cf830ae92583c63d21b7d74b\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+526            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+526-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\28529904cf830ae92583c63d21b7d74b\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+527            android:exported="false" >
+527-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\28529904cf830ae92583c63d21b7d74b\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+528            <meta-data
+528-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\28529904cf830ae92583c63d21b7d74b\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+529                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+529-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\28529904cf830ae92583c63d21b7d74b\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+530                android:value="cct" />
+530-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\28529904cf830ae92583c63d21b7d74b\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+531        </service>
+532        <service
+532-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\48e419e23627372899f1edeced28b87c\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+533            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+533-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\48e419e23627372899f1edeced28b87c\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+534            android:exported="false"
+534-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\48e419e23627372899f1edeced28b87c\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+535            android:permission="android.permission.BIND_JOB_SERVICE" >
+535-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\48e419e23627372899f1edeced28b87c\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+536        </service>
+537
+538        <receiver
+538-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\48e419e23627372899f1edeced28b87c\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+539            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+539-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\48e419e23627372899f1edeced28b87c\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+540            android:exported="false" />
+540-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\48e419e23627372899f1edeced28b87c\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+541
+542        <activity
+542-->[com.braintreepayments.api:google-payment:3.3.1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\a646e915e1c61fa9f767a96222a9334e\jetified-google-payment-3.3.1\AndroidManifest.xml:12:9-14:62
+543            android:name="com.braintreepayments.api.GooglePaymentActivity"
+543-->[com.braintreepayments.api:google-payment:3.3.1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\a646e915e1c61fa9f767a96222a9334e\jetified-google-payment-3.3.1\AndroidManifest.xml:13:13-75
+544            android:theme="@style/bt_transparent_activity" />
+544-->[com.braintreepayments.api:google-payment:3.3.1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\a646e915e1c61fa9f767a96222a9334e\jetified-google-payment-3.3.1\AndroidManifest.xml:14:13-59
+545
+546        <provider
+546-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:17:9-21:40
+547            android:name="com.cardinalcommerce.shared.cs.utils.CCInitProvider"
+547-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:18:13-79
+548            android:authorities="com.dreamguys.truelysell.CCInitProvider"
+548-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:19:13-66
+549            android:enabled="true"
+549-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:20:13-35
+550            android:exported="false" />
+550-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:21:13-37
+551
+552        <activity
+552-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:23:9-25:65
+553            android:name="com.cardinalcommerce.shared.cs.userinterfaces.ChallengeHTMLView"
+553-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:24:13-91
+554            android:theme="@style/CardinalSDKTheme.ActionBar" />
+554-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:25:13-62
+555        <activity
+555-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:26:9-29:76
+556            android:name="com.cardinalcommerce.shared.cs.userinterfaces.ChallengeNativeView"
+556-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:27:13-93
+557            android:theme="@style/CardinalSDKTheme.ActionBar"
+557-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:28:13-62
+558            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+558-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.4-1] C:\Users\Dreamguys\.gradle\caches\transforms-2\files-2.1\b871b2626c52e9e1deb2e5bc8043d15b\jetified-cardinalmobilesdk-2.2.4-1\AndroidManifest.xml:29:13-73
+559    </application>
+560
+561</manifest>

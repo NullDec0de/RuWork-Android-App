@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Dreamguys\\Downloads\\truelysell-android\\truelysell-android\\truelysell-android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Dreamguys\\Downloads\\truelysell-android\\truelysell-android\\truelysell-android\\app\\src\\main\\res\\values-normal\\styles.xml",
+                    "from": {
+                        "startLines": "3,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,384",
+                        "endLines": "8,15",
+                        "endColumns": "12,12",
+                        "endOffsets": "376,709"
+                    },
+                    "to": {
+                        "startLines": "5,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "200,519",
+                        "endLines": "10,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "514,839"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dreamguys\\Downloads\\truelysell-android\\truelysell-android\\truelysell-android\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "90,185,134",
+                        "endColumns": "42,51,49",
+                        "endOffsets": "128,232,179"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,98,150",
+                        "endColumns": "42,51,49",
+                        "endOffsets": "93,145,195"
+                    }
+                }
+            ]
+        }
+    ]
+}

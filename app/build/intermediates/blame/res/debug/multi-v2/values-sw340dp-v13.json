@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw340dp-v13\\values-sw340dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\585158dedcf24a47d2efd2fa6daa0ed3\\jetified-vintage-chroma-1.5\\res\\values-sw340dp-v13\\values-sw340dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,143,195,245",
+                        "endColumns": "87,51,49,48",
+                        "endOffsets": "138,190,240,289"
+                    }
+                }
+            ]
+        }
+    ]
+}

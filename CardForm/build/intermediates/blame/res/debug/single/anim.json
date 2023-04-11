@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\bt_error_animation.xml",
+        "source": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\src\\main\\res\\anim\\bt_error_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\92408cf385ef6a868c9e20cde294fdc3\\material-1.0.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\bt_expiration_date_dialog_close.xml",
+        "source": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\src\\main\\res\\anim\\bt_expiration_date_dialog_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\92408cf385ef6a868c9e20cde294fdc3\\material-1.0.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\92408cf385ef6a868c9e20cde294fdc3\\material-1.0.0\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\bt_expiration_date_dialog_open.xml",
+        "source": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\src\\main\\res\\anim\\bt_expiration_date_dialog_open.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\92408cf385ef6a868c9e20cde294fdc3\\material-1.0.0\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\anim\\abc_tooltip_enter.xml"
+    }
+]

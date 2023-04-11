@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw400dp-v13\\values-sw400dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\src\\main\\res\\values-sw400dp\\dimens.xml",
+                    "from": {
+                        "startLines": "3,5,10,9,7,8,2,4",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "99,226,519,444,294,369,57,157",
+                        "endColumns": "56,64,75,73,73,73,40,67",
+                        "endOffsets": "151,286,590,513,363,438,93,220"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,112,177,253,327,401,475,516",
+                        "endColumns": "56,64,75,73,73,73,40,67",
+                        "endOffsets": "107,172,248,322,396,470,511,579"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\values-sw400dp-v13\\values-sw400dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\src\\main\\res\\values-sw400dp\\dimens.xml",
+                    "from": {
+                        "startLines": "3,5,10,9,7,8,2,4",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "99,226,519,444,294,369,57,157",
+                        "endColumns": "56,64,75,73,73,73,40,67",
+                        "endOffsets": "151,286,590,513,363,438,93,220"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,112,177,253,327,401,475,516",
+                        "endColumns": "56,64,75,73,73,73,40,67",
+                        "endOffsets": "107,172,248,322,396,470,511,579"
+                    }
+                }
+            ]
+        }
+    ]
+}

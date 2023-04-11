@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\92408cf385ef6a868c9e20cde294fdc3\\material-1.0.0\\res\\interpolator\\mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\92408cf385ef6a868c9e20cde294fdc3\\material-1.0.0\\res\\interpolator\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_linear.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\92408cf385ef6a868c9e20cde294fdc3\\material-1.0.0\\res\\interpolator\\mtrl_linear.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\92408cf385ef6a868c9e20cde294fdc3\\material-1.0.0\\res\\interpolator\\mtrl_linear_out_slow_in.xml"
+    }
+]

@@ -1,0 +1,106 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\res\\merged\\debug\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,196,122",
+                        "endColumns": "63,72,72",
+                        "endOffsets": "116,264,190"
+                    },
+                    "to": {
+                        "startLines": "5,6,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "264,328,401",
+                        "endColumns": "63,72,72",
+                        "endOffsets": "323,396,469"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\92408cf385ef6a868c9e20cde294fdc3\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "474",
+                        "endLines": "11",
+                        "endColumns": "10",
+                        "endOffsets": "641"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\joshua\\StudioProjects\\truelysell-android\\CardForm\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,196,122",
+                        "endColumns": "63,72,72",
+                        "endOffsets": "116,264,190"
+                    },
+                    "to": {
+                        "startLines": "5,6,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "264,328,401",
+                        "endColumns": "63,72,72",
+                        "endOffsets": "323,396,469"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\80f1a52438092e30cd77b4e70883e3e7\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\joshua\\.gradle\\caches\\transforms-2\\files-2.1\\92408cf385ef6a868c9e20cde294fdc3\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "474",
+                        "endLines": "11",
+                        "endColumns": "10",
+                        "endOffsets": "641"
+                    }
+                }
+            ]
+        }
+    ]
+}
