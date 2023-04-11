@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+            "outputFile": "C:\\Users\\Dan\\StudioProjects\\RuWork2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\f5729ae1538bc564e14f70713487721d\\material-1.4.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",

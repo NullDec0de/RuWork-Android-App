@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
+            "outputFile": "C:\\Users\\Dan\\StudioProjects\\RuWork2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\dfa2672e33ffbe174e70a05e6d779941\\core-1.5.0\\res\\values-sw\\values-sw.xml",

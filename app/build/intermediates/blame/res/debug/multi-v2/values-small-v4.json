@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "C:\\Users\\Dan\\StudioProjects\\RuWork2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\src\\main\\res\\values-small\\dimens.xml",
-                    "from": {
-                        "startLines": "3,4,6,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "92,146,241,190",
-                        "endColumns": "52,42,51,49",
-                        "endOffsets": "140,184,288,235"
-                    },
-                    "to": {
-                        "startLines": "2,7,8,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,393,436,488",
-                        "endColumns": "52,42,51,49",
-                        "endOffsets": "103,431,483,533"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\src\\main\\res\\values-small\\styles.xml",
+                    "source": "C:\\Users\\Dan\\StudioProjects\\RuWork2\\app\\src\\main\\res\\values-small\\styles.xml",
                     "from": {
                         "startLines": "3,10",
                         "startColumns": "4,4",
@@ -37,6 +20,23 @@
                         "endLines": "15,21",
                         "endColumns": "12,12",
                         "endOffsets": "852,1177"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dan\\StudioProjects\\RuWork2\\app\\src\\main\\res\\values-small\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,6,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "92,146,241,190",
+                        "endColumns": "52,42,51,49",
+                        "endOffsets": "140,184,288,235"
+                    },
+                    "to": {
+                        "startLines": "2,7,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,393,436,488",
+                        "endColumns": "52,42,51,49",
+                        "endOffsets": "103,431,483,533"
                     }
                 },
                 {

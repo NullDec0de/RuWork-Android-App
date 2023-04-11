@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\Dan\\StudioProjects\\RuWork2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\dfa2672e33ffbe174e70a05e6d779941\\core-1.5.0\\res\\values-v21\\values-v21.xml",
@@ -97,7 +97,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "C:\\Users\\Dan\\StudioProjects\\RuWork2\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",

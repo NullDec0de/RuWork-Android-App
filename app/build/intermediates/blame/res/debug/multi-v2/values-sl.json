@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl\\values-sl.xml",
+            "outputFile": "C:\\Users\\Dan\\StudioProjects\\RuWork2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl\\values-sl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\a6f9941009298f26c97ecc182816dc25\\jetified-play-services-base-17.5.0\\res\\values-sl\\values.xml",

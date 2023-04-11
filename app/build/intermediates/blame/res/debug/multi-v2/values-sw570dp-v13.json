@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw570dp-v13\\values-sw570dp-v13.xml",
+            "outputFile": "C:\\Users\\Dan\\StudioProjects\\RuWork2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw570dp-v13\\values-sw570dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\9f836a60cd73c6ee3d36fb5265f902c7\\jetified-sdp-android-1.0.6\\res\\values-sw570dp-v13\\values-sw570dp-v13.xml",

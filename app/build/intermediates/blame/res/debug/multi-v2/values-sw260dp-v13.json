@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dan\\Desktop\\truelysell-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw260dp-v13\\values-sw260dp-v13.xml",
+            "outputFile": "C:\\Users\\Dan\\StudioProjects\\RuWork2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw260dp-v13\\values-sw260dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dan\\.gradle\\caches\\transforms-2\\files-2.1\\585158dedcf24a47d2efd2fa6daa0ed3\\jetified-vintage-chroma-1.5\\res\\values-sw260dp-v13\\values-sw260dp-v13.xml",
